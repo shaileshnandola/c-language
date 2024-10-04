@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+    int l=5;
+    int w=5;
+
+    clrscr();
+    printf("Enter the length of rectangle ");
+    scanf("%d",&l);
+
+    printf("Enter the width of rectangle");
+    scanf("%d",&w);
+
+    printf("Enter the rectangle value %d",l*w);
+
+    getch();
+
+}

@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	int x,y,lhs,rhs;
+
+	clrscr();
+
+	printf("Enter the values of x and y \n");
+	scanf("%d%d",&x,&y);
+	lhs=(x+y)*(x+y);
+	rhs=(x*x)+(2*x*y)+(y*y);
+	printf("\n LHS=%d",lhs);
+	printf("\n RHS=%d",rhs);
+	getch();
+
+
+}
