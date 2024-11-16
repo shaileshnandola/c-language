@@ -2,14 +2,14 @@
 #include <conio.h>
 
 main()
-{
+{       int n=5;
 	int i,j;
 	clrscr();
-		for(i=1;i>=0;i++)
+		for(i=n;i>=1;i--)
 		{
-			for(j=i;j>=1;j--)
+			for(j=1;j<=i;j++)
 			{
-				printf("%d",i);
+				printf("%2d",j %2);
 			}
 			printf("\n");
 		}

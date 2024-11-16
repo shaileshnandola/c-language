@@ -4,7 +4,6 @@
 main()
 {
 	int first,second,third,foruth;
-	clrscr();
 
 	printf("enter three number:\n");
 	scanf("%d %d %d",&first,&second,&third,foruth);

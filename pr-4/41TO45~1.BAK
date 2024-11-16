@@ -4,16 +4,16 @@
 main()
 {
 	int i,j;
-
 	clrscr();
-
-	for(i=5;i>=1;i--)
+	for(i=41;i<=45;i++)
 	{
-		for(j=1;j<=5;j++)
+		for(j=41;j<=i;j++)
 		{
 			printf("%d",j);
 		}
 		printf("\n");
 	}
-	getch();
+	
+
+getch();
 }

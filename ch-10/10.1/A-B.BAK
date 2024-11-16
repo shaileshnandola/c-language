@@ -3,17 +3,19 @@
 
 main()
 {
+	int n=5;
 	int i,j;
 
 	clrscr();
 
-	for(i=5;i>=1;i--)
+	for(i=0;i<=n;i++)
 	{
-		for(j=1;j<=5;j++)
+		for(j=i;j>=0;j--)
 		{
-			printf("%d",j);
+			printf("%c",j + 65);
 		}
 		printf("\n");
 	}
+
 	getch();
 }
